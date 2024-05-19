@@ -1,0 +1,46 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  transition: all .7s ease-in-out;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.box {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f3f2f2;
+    border-radius: 16px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: hsla(360, 92.3%, 37.7%, 0.937);
+}
+.green {
+    background-color: hsla(107.2, 100%, 36.2%, 0.937);
+}
+.blue {
+    background-color: hsla(234.9, 99.8%, 67%, 0.892);
+}
+.black {
+    background-color: hsla(234.9, 93.9%, 0%, 0.868);
+}
